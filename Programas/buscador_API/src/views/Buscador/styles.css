@@ -1,0 +1,20 @@
+/*5es) Bien, entonces tenemos este CSS que es como que una capa más anterior que la de BuscadorBox,
+lo que sucede es que este CSS se aplicará al <BuscadorBox/> que está siendo en el components/index.js
+Cual es la idea? que se vea que si yo aplico un estilo CSS a un componente Padre, este se aplicará también a los hijos.
+En otras palabras, ve a componte/index.js y busca el 6es) ! */
+.buscador{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.buscador-center{
+    height: 100vh; /*Propiedad del tamaño de la hoja (no aplica en diseño responsiv)*/
+    justify-content: center;
+    align-items: center;
+}
+
+.buscador-top{
+    justify-content: center;
+    align-items: flex-start;
+}
