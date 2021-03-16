@@ -1,0 +1,25 @@
+body{
+    background-color: #001f3f;
+}
+
+.buscador-box{
+    display: flex;
+    flex-direction: column; /*Para que me alinee en columnas*/
+    width: 100%;
+    align-items: center;
+ }
+
+.buscador-box-title{
+    color: #efefef;
+}
+
+.buscador-box-button{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.buscador-box-input{
+    height: 20px;
+}
+
